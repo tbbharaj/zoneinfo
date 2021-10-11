@@ -11,8 +11,9 @@
 # upload with a chance for manual intervention before the final publication.
 name: Build and release
 
-#on:
-#  push:
+on:
+  push:
+    branches: all
 #  release:
 #    types: [created]
 
